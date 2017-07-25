@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+.row div {
+  text-align: center;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+}
