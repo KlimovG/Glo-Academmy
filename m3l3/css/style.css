@@ -1,0 +1,68 @@
+/*=================GLOBAL=============*/*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*================Section 1=============*/
+
+/*================HEADER================*/
+
+.header {
+  margin: 60px auto;
+
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.header span {
+  display: block;
+}
+
+/*================Second row===========*/
+
+.video {
+  margin-bottom: 30px;
+}
+.form {
+  padding: 35px 20px;
+  border: 5px solid #2727d9;
+}
+
+.form-header, .section-header {
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.form input {
+  margin-bottom: 12px;
+}
+
+.form-btn {
+  margin: 10px auto;
+  background-color: #2727d9;
+}
+
+/*================Section 2============*/
+
+
+.feature {
+  margin: 60px auto;
+}
+
+.feature p {
+  margin-top: 20px;
+}
+
+.feature-box {
+  height: 160px;
+}
+
+
+
+
+
+
