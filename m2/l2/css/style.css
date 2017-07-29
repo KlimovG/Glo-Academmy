@@ -1,0 +1,134 @@
+
+body {
+  background-color: #FBFEF3;
+  width: 500px;
+  text-align: justify;
+  margin-left: 15%;
+}
+
+h1, h2 {
+  color: #635E96;
+  text-align: center;
+  font-size: 32px;
+}
+p {
+  color: #805A5E;
+  text-indent: 30px; 
+}
+
+a{
+  color: #B9A46E;
+  text-decoration: none;
+}
+
+.head{
+  width: 500px;
+}
+
+.center{
+  text-align: center;
+}
+
+/*================Intro==============*/
+
+.split{
+  width: 500px;
+}
+
+
+.chapters-1{
+  text-align: left;
+
+}
+
+.chapters-2{
+  text-align: right;
+}
+
+table{
+  border-spacing: 80px 0px;
+  margin-bottom: 50px;
+}
+
+td, li{
+  color: #B9A46E;
+}
+
+.cursive{
+  font-style: italic;
+}
+
+.indent{
+  text-indent: 0px;
+}
+
+.indent span{
+  font-size: 12px;
+}
+
+ol{
+  border: 5px dotted #805A5E;
+}
+ol li{
+  padding: 5px;
+}
+
+/*===============Introduction=============*/
+
+.right{
+  text-align: right;
+  font-style: oblique;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+
+/*================Chapter 1==============*/
+
+.chapter{
+  margin-top: 60px;
+}
+
+.morse-1{
+  width: 500px;
+}
+
+/*================Chapter 2==============*/
+
+.border{
+  border: 3px double #635E96;
+  padding: 5px;
+}
+
+#block3 div{
+  text-align: center;
+}
+
+.morse-2{
+  height: 80px;
+}
+
+.morse-3{
+  height: 80px;
+}
+
+.morse-4{
+  height: 160px;
+}
+
+.morse-5{
+  height: 320px;
+}
+
+
+/*================Chapter 3==============*/
+
+
+.brile{
+  float: right; 
+  width: 200px;
+}
+
