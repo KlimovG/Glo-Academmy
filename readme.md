@@ -15,4 +15,4 @@
 4. Модуль
    1. [ДЗ](klimovg.github.io/m4/l1/)
    2. [ДЗ](https://github.com/KlimovG/klimovg.github.io/tree/master/m4/l2)
-   3. [ДЗ](https://github.com/KlimovG/klimovg.github.io/blob/master/m4/l3/emmet-test.png)
+   3. [ДЗ](klimovg.github.io)
