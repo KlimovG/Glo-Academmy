@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'AA BebasNeue';
+  src: url('../fonts/AA BebasNeue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url('../fonts/PT_Sans-Narrow-Web-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Header
+
+@gradient: linear-gradient( to top, #f4a023, #f8c14c);
+
+.header {
+  background: @gradient;
+  background-size: cover;
+}
+
+.logo {
+  margin-top: 34px;
+  margin-bottom: 34px;
+ 
+}
+
+.back(@bm: #232323) {
+  background-color: @bm;
+}
+
+
+@f-size: 18px;
+
+.nav-menu {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  ul {
+    padding: 30px 48px;
+    margin: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: @f-size;
+    text-align: center;
+    .back (#232323);
+    li {
+      display: inline-block;
+      padding: 0 5px;
+      a {
+      color: #e8ab2e;
+      }
+    }
+  }
+}
+
+// Moto
+
+
+
+
+
+.moto {
+  margin-top: 3px;
+  .back(#fbd59c);
+  p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    font-size: 38px;
+    font-family: 'AA BebasNeue';
+  }
+}
+
+// Articles
+
+.articles {
+  margin-top: 70px;
+}
+
+@back-text: #e5e5e5;
+
+
+.linie {
+  margin: auto;
+}
+.posit {
+  height: 75px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
+}
+
+.icn {
+  line-height: 5;
+}
+
+.text{
+  height:100%;
+  padding-left: 7%;
+  text-align: left;
+  padding-top: 30px;
+  // line-height: 5;
+  text-decoration: underline;
+  .back(#e1e1e1);
+}
+
+.lh {
+  margin-top: -10px;
+}
+
+// Footer
+
+.footer{
+  height: 5px;
+  .back(#f5a72d);
+}
