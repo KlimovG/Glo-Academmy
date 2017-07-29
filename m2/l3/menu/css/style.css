@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+
+  width: 100%;
+
+  background-color: #000000;
+}
+
+.btn {
+  display: inline-block;
+
+  padding:0 25px;
+
+}
+
+.btn a {
+  color:#ffffff;
+  text-decoration: none
+}
+
+p{
+  margin-top: 60px;
+}
