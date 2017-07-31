@@ -17,5 +17,5 @@
    [Lesson_11](https://github.com/KlimovG/klimovg.github.io/tree/master/m4/l2)  
    [Lesson_12](klimovg.github.io)  
    5. **Модуль: Полноценная практика**   
-   [Lesson_13_trheorie](https://github.com/KlimovG/klimovg.github.io/tree/master/m5/l1/theorie)  
+   [Lesson_13_theorie](https://github.com/KlimovG/klimovg.github.io/tree/master/m5/l1/theorie)  
    [Lesson_13_praxis](https://github.com/KlimovG/klimovg.github.io/tree/master/m5/l1/praxis)  
