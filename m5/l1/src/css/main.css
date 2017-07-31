@@ -1,0 +1,93 @@
+.section {
+  width: 570px;
+  height: 575px;
+  background: url(../img/bg.png);
+  background-size: 570px 800px;
+}
+.form {
+  position: absolute;
+  left: 125px;
+  top: 102px;
+  width: 320px;
+  height: 370px;
+  border: 1px solid #D5E2E2;
+  background-color: #fafcfc;
+}
+.account {
+  position: relative;
+  left: 29px;
+  top: -4px;
+  width: 149px;
+  height: 25px;
+  background-color: #01b3b3;
+}
+.account p {
+  position: relative;
+  top: 5px;
+  left: 10px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+span {
+  color: #01b3b3;
+  font-size: 11px;
+}
+#email {
+  position: relative;
+  left: 29px;
+  margin-top: 27px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 600;
+}
+.pass {
+  position: relative;
+  left: 29px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 14px;
+  margin-bottom: 12px;
+}
+.space {
+  margin-top: 15px;
+  margin-bottom: 11px;
+}
+.form-control {
+  position: relative;
+  left: 29px;
+  top: -1px;
+  height: 32px !important;
+  width: 262px !important;
+  margin-left: -1px;
+  background-image: url(../img/bg.png) !important;
+  border-radius: 2px !important;
+}
+input[type=text] {
+  font-style: italic;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 12px;
+}
+.btn {
+  position: relative;
+  left: 29px;
+  top: 33px;
+  width: 260px;
+  height: 46px;
+  font-style: uppercase;
+  font-size: 32px;
+  color: #ffffff;
+  background-color: #01b3b3;
+}
+.btn p {
+  padding-top: 5px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
