@@ -1,5 +1,5 @@
 
-# klimovg.github.io
+# Klimov George
    1. **Модуль: Погружение в тему**  
    [Lesson_1](https://xd.adobe.com/view/9b43cec2-68d2-4246-8344-07d146792ec9/screen/08e0804d-e23f-4697-afc1-878e8b0c9131/-/)  
    [Lesson_2](https://github.com/KlimovG/klimovg.github.io/tree/master/m1/l2)  
@@ -18,4 +18,4 @@
    [Lesson_12](klimovg.github.io)  
    5. **Модуль: Полноценная практика**   
    [Lesson_13_theorie](klimovg.github.io/m5/l1/theorie/)  
-   [Lesson_13_praxis](https://github.com/KlimovG/klimovg.github.io/tree/master/m5/l1/praxis)  
+   [Lesson_13_practice](klimovg.github.io/m5/l1/practice/)  
