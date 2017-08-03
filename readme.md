@@ -5,19 +5,19 @@
    [Lesson_2](https://github.com/KlimovG/klimovg.github.io/tree/master/m1/l2)  
    [Lesson_3](https://github.com/KlimovG/klimovg.github.io/tree/master/m1/l3)  
    2. **Модуль: Изучение основ HTML и CSS**  
-   [Lesson_4](klimovg.github.io/m2/l1/)  
-   [Lesson_5](klimovg.github.io/m2/l2/)  
-   [Lesson_6](klimovg.github.io/m2/l3/)  
+   [Lesson_4](https://klimovg.github.io/m2/l1/)  
+   [Lesson_5](https://klimovg.github.io/m2/l2/)  
+   [Lesson_6](https://klimovg.github.io/m2/l3/)  
    3. **Модуль: Работы с первым проектом**  
    Lesson_7  *К сожалению быо перезаписано, но оно было проверено куратором и идентично 3 уроку из этого модуля*  
-   [Lesson_8](klimovg.github.io/m3/l2/)  
-   [Lesson_9](klimovg.github.io/m3/l3/)   
+   [Lesson_8](https://klimovg.github.io/m3/l2/)  
+   [Lesson_9](https://klimovg.github.io/m3/l3/)   
    4. **Модуль: Ещё немного ускорения**  
-   [Lesson_10](klimovg.github.io/m4/l1/)  
+   [Lesson_10](https://klimovg.github.io/m4/l1/)  
    [Lesson_11](https://github.com/KlimovG/klimovg.github.io/tree/master/m4/l2)  
-   [Lesson_12](klimovg.github.io)  
+   [Lesson_12](https://klimovg.github.io)  
    5. **Модуль: Полноценная практика**   
-   [Lesson_13_theory](klimovg.github.io/m5/l1/theorie/)  
-   [Lesson_13_practice](klimovg.github.io/m5/l1/practice/)  
+   [Lesson_13_theory](https://klimovg.github.io/m5/l1/theorie/)  
+   [Lesson_13_practice](https://klimovg.github.io/m5/l1/practice/)  
    [Lesson_14_theory](https://klimovg.github.io/m5/l2/theory/)  
-   [Lesson_14_practice](klimovg.github.io/m5/l2/practice/)  
+   [Lesson_14_practice](https://klimovg.github.io/m5/l2/practice/)  
