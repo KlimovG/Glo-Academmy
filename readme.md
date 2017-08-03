@@ -18,6 +18,6 @@
    [Lesson_12](klimovg.github.io)  
    5. **Модуль: Полноценная практика**   
    [Lesson_13_theory](klimovg.github.io/m5/l1/theorie/)  
-   [Lesson_13_practice](klimovg.github.io/m5/l1/practice/) 
+   [Lesson_13_practice](klimovg.github.io/m5/l1/practice/)  
    [Lesson_14_theory](klimovg.github.io/m5/l2/theory/)  
-   [Lesson_14_practice](klimovg.github.io/m5/l2/practice/) 
+   [Lesson_14_practice](klimovg.github.io/m5/l2/practice/)  
