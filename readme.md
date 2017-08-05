@@ -23,3 +23,7 @@
    [Lesson_14_practice](https://klimovg.github.io/m5/l2/practice/)  
    [Lesson_15_theory](https://klimovg.github.io/m5/l3/theory/)  
    [Lesson_15_practice](https://klimovg.github.io/m5/l3/practice/)  
+   [Lesson_16_theory](https://klimovg.github.io/m5/l4/theory/)  
+   [Lesson_16_practice](https://klimovg.github.io/m5/l4/practice/)  
+   [Lesson_17_theory](https://klimovg.github.io/m5/l5/theory/)  
+   [Lesson_17_practice](https://klimovg.github.io/m5/l5/practice/)  
