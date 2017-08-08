@@ -15,6 +15,19 @@
   font-size: @fz;
 }
 
+// /* Ключевые кадры анимации */
+// @keyframes move {
+//  Первый кадр анимации
+// from {
+//   right:0
+// }
+// /* Конечный кадр анимации*/
+// to {
+//   right: 50px;
+// }
+// }
+
+
 /* Styles */
 /* From Bootstrap */
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -45,13 +58,14 @@ input, button {
   background: url(../img/bg.png) center no-repeat;
   &-tab {
     position: absolute;
-    margin: 19px 88px 37px 83px;
-    &-list {
+    top: 19px;
+    left: 88px;
+    .list {
       .reg(24px);
       transform: translateX(30px);
       border-bottom: none;
     }
-    &-content {
+    .content {
       transform: translateY(-18px);
       padding: 22px 22px;
       width: 629px;
@@ -97,7 +111,7 @@ input, button {
           margin-left: 67px;
         }
         .phrase {
-          display: inline-block;
+          // display: inline-block;
           margin-left: 8px;
           .reg(15px);
           color: #6f6d6d;
@@ -134,6 +148,8 @@ input, button {
           &:active, &:hover {
             box-shadow: 0 0 5px #ffffff;
           }
+          animation-name: move;
+          animation-duration: 1s;
         }
       }
     }
