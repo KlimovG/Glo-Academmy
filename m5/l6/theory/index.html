@@ -24,10 +24,10 @@
 </head>
 <body>
   <!-- Section% TAB -->
-<div class="section">
+<!-- <div class="section">
   <div class="section-tab">
 
-    <!-- Nav tabs -->
+    Nav tabs 
     <ul class="nav nav-tabs section-tab-list">
       <li class="active">
         <a href="#Sign-In" data-toggle="tab">Sign-In</a>
@@ -37,23 +37,50 @@
       </li>
     </ul>
 
-    <!-- Tab panes -->
+    Tab panes 
     <div class="tab-pane active section-tab-content tab-content" id="Sign-In">
       <div  class="form" >
-        <label for="username"></label>
-        <input type="text" class="input username" id="username" placeholder="Username">
-        <label for="password"></label>
-        <input type="text" class="input pass" id="password" placeholder="Password">
+        <label for="username"></label><input type="text" class="input username" id="username" placeholder="Username">
+        <label for="password"></label><input type="text" class="input pass" id="password" placeholder="Password">
         <a href="#"><p class="forgot"> Forgot your pasword?</p></a>
         <input type="checkbox" class="check"><span class="phrase">Remember me</span>
         <button type="button" class="Sign-in"> Sign-In</button>
       </div>
-    </div>
-    <div class="tab-pane" id="Sign-Up">
-    
+      <div class="tab-pane" id="Sign-Up">
+      </div>
     </div>
 
   </div>
+</div> -->
+
+<div class="section">
+
+  <div class="section-tab">
+    <!-- Nav tabs -->
+      <ul class="nav nav-tabs list">
+        <li class="active">
+          <a href="#Sign-In" data-toggle="tab">Sign-In</a>
+        </li>
+        <li>
+          <a href="#Sign-Up" data-toggle="tab">Sign-Up</a>
+        </li>
+      </ul>
+
+    <!-- Tab panes -->
+    <div class="content tab-content">
+      <div role="tabpanel" class="tab-pane active form" id="Sign-In">
+          <label for="username"></label><input type="text" class="input username" id="username" placeholder="Username">
+          <label for="password"></label><input type="text" class="input pass" id="password" placeholder="Password">
+          <a href="#"><p class="forgot"> Forgot your pasword?</p></a>
+          <input type="checkbox" class="check"><span class="phrase">Remember me</span>
+          <button type="button" class="Sign-in"> Sign-In</button>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="Sign-Up">
+        
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
