@@ -1,0 +1,137 @@
+/* Fonts */
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Styles */
+/* From Bootstrap */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: #049ac8;
+  border: 1px solid #049ac8;
+  color: #ffffff;
+  text-shadow: #014860 2px 2px 2px;
+}
+ul > li > a {
+  padding-top: 3px!important;
+  margin-bottom: 5px!important;
+}
+.nav-tabs > li > a {
+  background-color: #ffffff;
+}
+/* My Stules */
+* {
+  box-sizing: border-box;
+}
+input,
+button {
+  outline: none!important;
+}
+.section {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: url(../img/bg.png) center no-repeat;
+}
+.section-tab {
+  position: absolute;
+  margin: 19px 88px 37px 83px;
+}
+.section-tab-list {
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 24px;
+  transform: translateX(30px);
+  border-bottom: none;
+}
+.section-tab-content {
+  transform: translateY(-18px);
+  padding: 22px 22px;
+  width: 629px;
+  height: 410px;
+  background-color: #049ac8;
+  border: 2px solid #049ac8;
+  border-radius: 5px;
+}
+.section-tab-content .form {
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  border-radius: 6px;
+}
+.section-tab-content .form .input {
+  width: 482px;
+  height: 60px;
+  margin-left: 43px;
+  padding-top: 8px;
+  padding-left: 24px;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 24px;
+  background-color: #1a1919;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.section-tab-content .form .input [type=text] {
+  color: #ffffff;
+}
+.section-tab-content .form .username {
+  margin-top: 70px;
+  margin-bottom: 29px;
+}
+.section-tab-content .form .forgot {
+  margin-top: 18px!important;
+  margin-left: 67px;
+  margin-bottom: 50px;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #c51f03;
+}
+.section-tab-content .form .check {
+  margin-left: 67px;
+}
+.section-tab-content .form .phrase {
+  display: inline-block;
+  margin-left: 8px;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 15px;
+  color: #6f6d6d;
+}
+.section-tab-content .form button {
+  position: absolute;
+  right: 0;
+  transform: translateX(15px);
+  margin-top: 2px;
+  width: 125px;
+  height: 40px;
+  padding-top: 1px;
+  padding-left: 0;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 1.8;
+  background: #8c0601;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #8c0601 0%, #ca2202 33%, #ca2202 50%, #ca2202 67%, #8c0601 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #8c0601 0%, #ca2202 33%, #ca2202 50%, #ca2202 67%, #8c0601 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #8c0601 0%, #ca2202 33%, #ca2202 50%, #ca2202 67%, #8c0601 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border: 0;
+  box-shadow: 0 4px 5px #000000;
+}
+.section-tab-content .form button::after {
+  position: absolute;
+  z-index: -1;
+  top: 40px;
+  right: 0;
+  content: '';
+  border: 6px solid transparent;
+  border-left: 6px solid #330200;
+  border-top: 6px solid #330200;
+}
