@@ -39,13 +39,12 @@ input, button {
 }
 
 .section {
-  position: relative;
+  position: absolute;
   width: 800px;
   height: 500px;
   background: url(../img/bg.png) center no-repeat;
   &-tab {
     position: absolute;
-    // transform: translateY(-2px);
     margin: 19px 88px 37px 83px;
     &-list {
       .reg(24px);
@@ -73,16 +72,18 @@ input, button {
           padding-left: 24px;
           .reg(24px);
           background-color: #1a1919;
+          color: #ffffff;
           border: none;
           border-radius: 5px;
           outline: none;
-          & [type=text] {
-            color: #ffffff;
           }
         }
         .username {
           margin-top: 70px;
           margin-bottom: 29px;
+        }
+        a {
+          text-decoration: none;
         }
         .forgot {
           margin-top: 18px!important;
@@ -122,7 +123,7 @@ input, button {
           box-shadow: 0 4px 5px #000000;
           &::after {
             position: absolute;
-            z-index: -1;
+            // z-index: -1;
             top: 40px;
             right: 0;
             content: '';
@@ -137,5 +138,10 @@ input, button {
       }
     }
   }
-}
+
+
+::-webkit-input-placeholder {color:#ffffff;}
+::-moz-placeholder          {color:#ffffff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#ffffff;}
 
