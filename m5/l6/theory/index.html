@@ -38,31 +38,29 @@
     </ul>
 
     <!-- Tab panes -->
-    <div class="section-tab-content">
-      <div  class="tab-pane active form" id="Sign-In">
-        <input type="text" class="input username" placeholder="Username">
-        <input type="text" class="input pass" placeholder="Password">
-        <p class="forgot"> Forgot your pasword?</p>
+    <div class="tab-pane active section-tab-content tab-content" id="Sign-In">
+      <div  class="form" >
+        <label for="username"></label>
+        <input type="text" class="input username" id="username" placeholder="Username">
+        <label for="password"></label>
+        <input type="text" class="input pass" id="password" placeholder="Password">
+        <a href="#"><p class="forgot"> Forgot your pasword?</p></a>
         <input type="checkbox" class="check"><span class="phrase">Remember me</span>
-        <button class="Sign-in"> Sign-In</button>
+        <button type="button" class="Sign-in"> Sign-In</button>
       </div>
-      <div role="tabpanel" class="tab-pane" id="Sign-Up"></div>
+    </div>
+    <div class="tab-pane" id="Sign-Up">
+    
     </div>
 
   </div>
 </div>
 
 
+
+
 <!-- библиотека jQuery  -->
 <script src="js/jquery-1.12.4.js">
-  $('#myTabs a').click(function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-  });
-
-
-
-
 </script>
 <!--  js файлы -->
 <script src="js/bootstrap.min.js"></script>
