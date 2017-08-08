@@ -32,7 +32,7 @@ button {
   outline: none!important;
 }
 .section {
-  position: relative;
+  position: absolute;
   width: 800px;
   height: 500px;
   background: url(../img/bg.png) center no-repeat;
@@ -71,18 +71,19 @@ button {
   font-family: 'Myriad Pro', sans-serif;
   font-size: 24px;
   background-color: #1a1919;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   outline: none;
 }
-.section-tab-content .form .input [type=text] {
-  color: #ffffff;
-}
-.section-tab-content .form .username {
+.section-tab-content .username {
   margin-top: 70px;
   margin-bottom: 29px;
 }
-.section-tab-content .form .forgot {
+.section-tab-content a {
+  text-decoration: none;
+}
+.section-tab-content .forgot {
   margin-top: 18px!important;
   margin-left: 67px;
   margin-bottom: 50px;
@@ -91,17 +92,17 @@ button {
   font-weight: 900;
   color: #c51f03;
 }
-.section-tab-content .form .check {
+.section-tab-content .check {
   margin-left: 67px;
 }
-.section-tab-content .form .phrase {
+.section-tab-content .phrase {
   display: inline-block;
   margin-left: 8px;
   font-family: 'Myriad Pro', sans-serif;
   font-size: 15px;
   color: #6f6d6d;
 }
-.section-tab-content .form button {
+.section-tab-content button {
   position: absolute;
   right: 0;
   transform: translateX(15px);
@@ -125,9 +126,8 @@ button {
   border: 0;
   box-shadow: 0 4px 5px #000000;
 }
-.section-tab-content .form button::after {
+.section-tab-content button::after {
   position: absolute;
-  z-index: -1;
   top: 40px;
   right: 0;
   content: '';
@@ -135,7 +135,21 @@ button {
   border-left: 6px solid #330200;
   border-top: 6px solid #330200;
 }
-.section-tab-content .form button:active,
-.section-tab-content .form button:hover {
+.section-tab-content button:active,
+.section-tab-content button:hover {
   box-shadow: 0 0 5px #ffffff;
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+::-moz-placeholder {
+  color: #ffffff;
+}
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #ffffff;
+}
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #ffffff;
 }
