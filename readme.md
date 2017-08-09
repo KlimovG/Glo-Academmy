@@ -29,7 +29,7 @@
    [Lesson_17_practice](https://klimovg.github.io/m5/l5/practice/)  
    [Lesson_18_theory](https://klimovg.github.io/m5/l6/theory/)  
    [Lesson_18_practice](https://klimovg.github.io/m5/l6/practice/)  
-   6. **Модуль: Важно знать и уметь**
+   6. **Модуль: Важно знать и уметь**  
    [Lesson_19_theory](https://klimovg.github.io/m6/l1/theory/)  
    [Lesson_19_practice](https://klimovg.github.io/m6/l1/practice/)  
    [Lesson_20_theory](https://klimovg.github.io/m6/l2/theory/)  
