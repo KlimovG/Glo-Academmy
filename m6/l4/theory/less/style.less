@@ -1,0 +1,113 @@
+/*Mixins*/
+.reg(@fz) {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: @fz;
+}
+
+.semib(@fz) {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: @fz;
+}
+/*Style*/
+* {
+  box-sizing: border-box;
+}
+/*Map*/
+/*Adress*/
+.map {
+  width: 100%!important;
+  .container{
+    .adress{
+      position: absolute;
+      display: table;
+      height: 430px;
+      width: 380px;
+      z-index: 1000;
+      &-cell {
+        display: table-cell;
+        background-color: #c60b0b;
+        text-align: center;
+        vertical-align: middle;
+        color: #ffffff;
+        &-header {
+          .reg(30px);
+          padding-bottom: 10px;
+        }
+        &-text {
+          padding: 10px;
+          .reg(18px);
+        }
+        &-tel {
+          display: block;
+          padding: 10px;
+          color: #ffffff;
+          text-decoration: none!important;
+          .reg(18px);
+        }
+        &-email {
+          display: block;
+          padding: 10px;
+          text-decoration: underline;
+          color: #ffffff;
+          .reg(18px);
+        }
+      }
+    }
+  }
+}
+
+/*Footer*/
+
+.footer {
+    height: 95px;
+    margin-bottom: 0;
+    background-color: #ffffff;
+  .row {
+    .logo {
+    display: table;
+    height: 95px;
+      &-img {
+        display: table-cell;
+        width: 60px;
+        vertical-align: middle;
+      }
+      &-name {
+        display: table-cell;
+        padding-left: 20px;
+        .reg(16px);
+        text-transform: capitalize;
+        vertical-align: middle;
+      }
+    }
+    .name {
+      height: 95px;
+      display: table;
+      &-text {
+      display: table-cell;
+      vertical-align: middle;
+      .reg(14px);
+      color: #666666;
+      text-align: center;
+      }
+    }
+    .contacts {
+      display: table;
+      height: 95px;
+      &-cell {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        a {
+          .semib(22px);
+          color: #000000;
+          text-decoration: none;
+        }
+        p {
+          .reg(14px);
+        }
+      }
+    }
+  }
+}

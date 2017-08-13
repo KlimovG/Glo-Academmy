@@ -1,0 +1,113 @@
+/*Mixins*/
+/*Style*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*Map*/
+/*Adress*/
+.map {
+  width: 100%!important;
+}
+.map .container .adress {
+  position: absolute;
+  display: table;
+  height: 430px;
+  width: 380px;
+  z-index: 1000;
+}
+.map .container .adress-cell {
+  display: table-cell;
+  background-color: #c60b0b;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+.map .container .adress-cell-header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.map .container .adress-cell-text {
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.map .container .adress-cell-tel {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none!important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.map .container .adress-cell-email {
+  display: block;
+  padding: 10px;
+  text-decoration: underline;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+/*Footer*/
+.footer {
+  height: 95px;
+  margin-bottom: 0;
+  background-color: #ffffff;
+}
+.footer .row .logo {
+  display: table;
+  height: 95px;
+}
+.footer .row .logo-img {
+  display: table-cell;
+  width: 60px;
+  vertical-align: middle;
+}
+.footer .row .logo-name {
+  display: table-cell;
+  padding-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+.footer .row .name {
+  height: 95px;
+  display: table;
+}
+.footer .row .name-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+.footer .row .contacts {
+  display: table;
+  height: 95px;
+}
+.footer .row .contacts-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.footer .row .contacts-cell a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+  text-decoration: none;
+}
+.footer .row .contacts-cell p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
