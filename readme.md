@@ -38,7 +38,7 @@
    [Lesson_21_practice](https://klimovg.github.io/m6/l3/practice/)  
    [Lesson_22_theory](https://klimovg.github.io/m6/l4/theory/)  
    [Lesson_22_practice](https://klimovg.github.io/m6/l4/practice/)  
-   [Lesson_23_theory](https://klimovg.github.io/m6/l5/theory/)  
+   [Lesson_23_theory](http://krine.ru)  
    [Lesson_23_practice](https://klimovg.github.io/m6/l5/practice/)  
    [Lesson_24_theory](https://klimovg.github.io/m6/l6/theory/)  
    [Lesson_24_practice](https://klimovg.github.io/m6/l6/practice/)  
