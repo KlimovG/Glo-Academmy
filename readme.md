@@ -45,7 +45,8 @@
    [Lesson_24_practice](https://klimovg.github.io/m6/l6/practice/)  
    7. **Модуль: Финальные приготовления.**   
    [Lesson_25_theory](http://krine.ru/lessons/lesson25/)  
-   [Lesson_25_practice](https://klimovg.github.io/m7/l1/practice/) 
+   [Lesson_25_practice](https://klimovg.github.io/m7/l1/practice/)  
+   [Lesson_26_theory](http://krine.ru/lessons/lesson26/index.php) 
    
    ## Курс по jQuerry
    
